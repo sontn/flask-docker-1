@@ -34,6 +34,8 @@ pipeline {
             sh 'pwd'
             sh 'ls -la'
             sh 'id'
+            sh 'touch /abc.txt'
+            sh 'ls /abc.txt'
             sh 'echo $DOCKER_PASSWORD | docker login --username $DOCKER_USERNAME --password-stdin'
             sh "docker push ${DOCKER_IMAGE}:${DOCKER_TAG}"
             sh "docker push ${DOCKER_IMAGE}:latest"
