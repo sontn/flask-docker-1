@@ -3,4 +3,4 @@ def test_awesome1():
     assert 11 + 1 == 12
     assert 12 + 2 == 14
 def test_cal():
-    assert 1 + 1 == 2
+    assert 1 + 1 == 3
