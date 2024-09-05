@@ -9,7 +9,7 @@ docker run -v /var/run/docker.sock:/var/run/docker.sock -v $(which docker):$(whi
 
 The Jenkins plugins should be installed:
 
-- Docker plugin
+- Docker
 - Docker pipeline
 - Github integration
 - Blue Ocean
